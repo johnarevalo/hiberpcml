@@ -30,7 +30,9 @@ package com.googlecode.hiberpcml;
  */
 public class PcmlException extends Exception {
 
-    public PcmlException(String message) {
+	private static final long serialVersionUID = -6097462611025653428L;
+
+	public PcmlException(String message) {
         super(message);
     }
 

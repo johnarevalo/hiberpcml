@@ -28,6 +28,8 @@
  */
 public final class Util {
 
+	private Util() {}
+	
     /**
      * <p>Fills a string with the given char. The repeated char is concatenated at left side.
      * if <code>length</code> is less than <code>string</code> length

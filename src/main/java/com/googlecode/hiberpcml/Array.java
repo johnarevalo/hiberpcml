@@ -53,7 +53,7 @@ public @interface Array {
      */
     String pcmlName();
 
-    Class type();
+    Class<?> type();
 
     /**
      * Specifies the usage of this param in the pcml. 
